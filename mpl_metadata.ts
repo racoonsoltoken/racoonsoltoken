@@ -25,9 +25,9 @@ async function main(){
     umi.use(signerIdentity(signer, true))
 
     const ourMetadata = { // TODO change those values!
-        name: "Silly Dragon Token", 
-        symbol: "SDT",
-        uri: "https://raw.githubusercontent.com/loopcreativeandy/video-tutorial-resources/main/metadataUpdate/metadata.json",
+        name: "RACOON", 
+        symbol: "RACOON",
+        uri: "https://raw.githubusercontent.com/racoonsoltoken/racoonsoltoken/main/76yj3m.jpg",
     }
     const onChainData = {
         ...ourMetadata,
